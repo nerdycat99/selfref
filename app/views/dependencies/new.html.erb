@@ -1,0 +1,7 @@
+<div class="col-8 offset-2">
+  <h1>new dependency</h1>
+  <%= simple_form_for @dependency do |f| %>
+    <%= f.input :independent_task_id %>
+    <%=f.submit 'create', class: 'btn btn-primary' %>
+  <% end %>
+</div>
